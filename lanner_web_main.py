@@ -1,7 +1,7 @@
 import streamlit as st
 
 st.title("Lanner USA spec text to SKU number")
-user_input = st.text_input("Input text (Press \"Enter\"): ")
+user_input = st.text_input("Enter your spec text and Press \"Enter\": ")
 if user_input:
   subtxt = user_input.split(':')
   op =  subtxt[0].split(' - ')[1].split(' ')[0]
