@@ -2,7 +2,7 @@ import streamlit as st
 
 st.subheader("Lanner USA config text to SKU number")
 user_input = st.text_input("Enter your config text and Press \"Enter\": ")
-st.text("Press \"Ctrl\" + \"A\" to select all")
+st.text("Triple click to select all")
 
 if user_input:
   subtxt = user_input.split(':')
