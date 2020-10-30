@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.title("Lanner USA config text to SKU number")
+st.subheader("Lanner USA config text to SKU number")
 user_input = st.text_input("Enter your config text and Press \"Enter\": ")
 if user_input:
   subtxt = user_input.split(':')
